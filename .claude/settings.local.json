@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir:*)",
+      "Bash(jar tf:*)",
+      "Bash(findstr:*)",
+      "Bash(Select-String -Pattern \"api\")",
+      "Bash(Select-Object -First 30)",
+      "Bash(unzip:*)",
+      "Bash(./gradlew build:*)"
+    ]
+  }
+}

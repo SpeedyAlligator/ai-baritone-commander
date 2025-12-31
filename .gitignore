@@ -1,0 +1,20 @@
+# Gradle
+.gradle/
+build/
+
+# Local jars / dev-only dependencies
+libs/
+
+# Fabric run folder
+run/
+
+# IDE
+.idea/
+.vscode/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

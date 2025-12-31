@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "aicommander",
+  "version": "${version}",
+  "name": "AI Baritone Commander",
+  "description": "Control Baritone with natural language commands via a local LLM (Ollama)",
+  "authors": [
+    "AI Commander"
+  ],
+  "contact": {
+    "homepage": "https://github.com/aicommander/ai-baritone-commander",
+    "sources": "https://github.com/aicommander/ai-baritone-commander"
+  },
+  "license": "MIT",
+  "icon": "assets/aicommander/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.aicommander.AIBaritoneCommander"
+    ]
+  },
+  "mixins": [
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "recommends": {
+    "baritone": "*"
+  }
+}
